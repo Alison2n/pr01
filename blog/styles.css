@@ -15,4 +15,51 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 76px;
+    border-bottom: 3px solid #EFF5FB;
+}
+
+header > .youtalk {
+    width: 51px;
+    height: 36px;
+    margin: 20px 0 0 120px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0 0 51px;
+    width: 704px;
+    font-weight: medium;
+}
+
+nav > div{
+    display: flex;
+    flex-direction: row;
+}
+
+nav > div > img {
+    width: 14px;
+    height: 14px;
+    margin: 0 0 0 8px;
+}
+
+header > .button {
+    margin: 14px 120px 0 164px;
+}
+
+header > div > button {
+    width: 230px;
+    height: 48px;
+    color: #03B2A5;
+    background-color: #E3F5F5;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.burger-menu {
+    display: none;
 }
