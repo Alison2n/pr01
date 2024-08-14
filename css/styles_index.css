@@ -1,12 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
+@import url("./fonts.css");
+@import url("./styles_zero.css");
 body {
     display: flexbox;
     background-color: #FFFFFF;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", "sans-serif";
     font-size: 14px;
     color: #333333;
 }
