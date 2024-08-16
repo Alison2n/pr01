@@ -3,60 +3,243 @@
 body {
     display: flexbox;
     background-color: #FFFFFF;
-    font-family: "Montserrat", "sans-serif";
-    font-size: 14px;
     color: #333333;
+    font-family: "Montserrat", "Arial";
+    font-size: 14px;
+    font-weight: 400;
 }
 
 header {
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    justify-content: space-between;
     height: 76px;
     border-bottom: 3px solid #EFF5FB;
+    font-weight: 500;
 }
 
 header > .youtalk {
     width: 51px;
-    height: 36px;
-    margin: 20px 0 0 120px;
+    height: 36px;    
+    margin: 20px 0 0;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 30px 0 0 51px;
     width: 704px;
+    height: 16px;
+    margin: 30px 164px 0 51px;
     font-weight: medium;
 }
 
-nav > div{
+nav > .materials{
     display: flex;
     flex-direction: row;
 }
 
-nav > div > img {
+nav > .materials > img {
     width: 14px;
     height: 14px;
-    margin: 0 0 0 8px;
+    margin: 3px 0 0 8px;
 }
 
-header > .button {
-    margin: 14px 120px 0 164px;
+.header_button {
+    margin: 14px 0 0;
 }
 
-header > div > button {
+.header_button > button {
     width: 230px;
     height: 48px;
     color: #03B2A5;
     background-color: #E3F5F5;
     border: 0px;
     border-radius: 4px;
+    font-family: "Montserrat", "Arial";
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .burger-menu {
     display: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px 0 0 0px;
+}
+
+.navigation-text {
+    width: 1200px;
+    height: 18px;
+    opacity: 70%;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.navigation-text > .arrow_right {
+    width: 16px;
+    height: 16px;
+    margin: 0 6px -4px 3px;
+}
+
+.h1-name {
+    width: 1200px;
+    height: 56px;
+    margin: 30px 0 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hashtag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 32px;
+    margin: 32px 0 0;
+}
+
+.hashtag > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C1C5CD;
+    border-radius: 24px;
+    padding: 6px 8px;
+}
+.hashtag > div > img {
+    width: 20px;
+    height: 20px;
+    margin: 0 4px 0 0;
+}
+
+.main-blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 24px 0 0;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 475px;
+    margin: 24px 0 0;
+    border: 1px solid #DEDEDE;
+    border-radius: 16px;
+}
+
+.main-block:hover {
+    cursor: pointer;
+}
+
+.main-block_hashtag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    margin: 8px 0 0 8px;
+}
+
+.main-block_hashtag > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C1C5CD;
+    border-radius: 24px;
+    padding: 6px 8px;
+    margin: 0 0 8px 0;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.main-block_hashtag > div > img {
+    width: 20px;
+    height: 20px;
+    margin: 0 4px 0 0;
+}
+
+.main-block_img {
+    display: flex;
+}
+
+.main-block_img > img{
+    width: 384px;
+    height: 260px;
+    border-radius: 16px 16px 0 0;
+}
+
+.main-block_text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 200px;
+    margin: 12px 16px 16px;
+}
+
+.main-block_topic {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;    
+}
+
+.main-block_author {
+    display: flex;
+    align-items: center;
+    margin: 4px 0 0;
+    font-size: 12px;
+}
+
+.main-block_article {
+    display: flex;
+    align-items: center;
+    margin: 8px 0 0;
+    font-size: 14px;
+}
+
+.main-block_data {
+    position: absolute;
+    bottom: 0;
+    color: #868686;
+    font-size: 12px;
+
+}
+
+.big-block {
+    width: 588px;
+    height: 499px;
+}
+
+.big-block_img > img {
+    width: 588px;
+    height: 260px;
+    border-radius: 14px 16px 0 0;
+}
+
+.main_button {
+    display: flex;
+    justify-content: center;
+    margin: 56px 0 0;
+}
+
+.main_button > button{
+    width: 182px;
+    height: 48px;
+    color: #FFFFFF;
+    background-color: #35B3A9;
+    border: 1px solid #35B3A9;
+    border-radius: 4px;
+    font-family: "Montserrat", "Arial";
+    font-size: 16px;
+    font-weight: 700;
 }
