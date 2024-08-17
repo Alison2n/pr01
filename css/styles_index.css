@@ -100,6 +100,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 1200px;
     height: 32px;
     margin: 32px 0 0;
@@ -325,6 +326,9 @@ footer {
 }
 
 .main-information_email_input > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 64px;
     height: 48px;
     margin: 0 0 0 -64px;
@@ -386,4 +390,16 @@ footer {
     height: 20px;
     color: #FFFFFF;
     opacity: 70%;
+}
+
+/* Ipad Pro 12,9 */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    nav {
+        width: 627px;
+        margin: 30px 20px 0 32px;
+    }
+    .hashtag {
+        width: 934px;
+        height: 72px;
+    }
 }
