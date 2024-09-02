@@ -1,0 +1,1489 @@
+@import url("./fonts.css");
+@import url("./styles_zero.css");
+body {
+    display: flexbox;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: "Montserrat", "Arial";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 76px;
+    margin-bottom: 16px;
+    border-bottom: 3px solid #EFF5FB;
+    font-weight: 500;
+}
+
+header > .youtalk {
+    width: 51px;
+    height: 36px;    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 704px;
+    height: 16px;
+    margin: 0px 164px 0 51px;
+    font-weight: medium;
+}
+
+nav > .materials{
+    display: flex;
+    flex-direction: row;
+}
+
+nav > .materials > img {
+    width: 14px;
+    height: 14px;
+    margin: 3px 0 0 8px;
+}
+
+.header_button > button {
+    width: 230px;
+    height: 48px;
+    color: #03B2A5;
+    background-color: #E3F5F5;
+    border: 0px;
+    border-radius: 4px;
+    font-family: "Montserrat", "Arial";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.burger-menu {
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+.burger-menu:hover {
+    cursor: pointer;
+}
+
+/* main */
+.main-and-aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 924px;
+    font-size: 16px;
+}
+
+main > section {
+    width: 690px;
+    line-height: 24px;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #35B3A9;
+    border: 1px solid #35B3A9;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h3, .h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.navigation-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 690px;
+    margin-bottom: 54px;
+    opacity: 70%;
+    font-size: 12px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+}
+
+.arrow_right {
+    width: 16px;
+    height: 16px;
+    margin: 0 6px -4px 3px;
+}
+
+.navigation-text_clip {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    flex-shrink: 1;
+}
+
+.naming {
+    width: 690px;
+}
+
+.naming > h1 {
+    margin: 0 0 16px;
+}
+
+.naming_author {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 286px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #494949;
+}
+
+.naming > img {
+    width: 690px;
+    height: 331px;
+    margin-bottom: 24px;
+}
+
+.content {
+    margin-bottom: 24px;
+}
+
+.content > h5 {
+    margin-bottom: 16px;
+}
+
+.content_list {
+    margin-bottom: 8px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.content_list > ul > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content_list > ul > li > img {
+    margin: 0 20px 0 0;
+}
+
+.content_list > ul > ul {
+    margin: 0 0 0 56px;
+}
+
+.content_list > ul > ul > ul {
+    margin: 0 0 0 16px;
+}
+
+.content_list > ul > ul > ul > ul {
+    margin: 0 0 0 16px;
+}
+
+.article-text > div {
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+.article-text_first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 182px;
+}
+
+.article-text_second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: #F3F7FE;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.article-text_second > img {
+    position: absolute;
+    top: 24px;
+    width: 55.78px;
+    height: 36px;
+}
+
+.article-text_second > p {
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+.article-text_third > h3 {
+    margin-bottom: 16px;
+}
+
+.article-text_third > ul > li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+
+.article-text_third > ul > li > img {
+    margin: 7px 20px 0 0 ;
+}
+
+.article-text_forth > img {
+    width: 690px;
+    height: 331px;
+    margin-bottom: 16px;
+}
+
+.article-text_forth > p {
+    color: #868686;
+    font-size: 14px;
+}
+
+.article-text_circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 168px;
+}
+
+.article-text_circle > img {
+    position: absolute;
+    z-index: 1;
+}
+
+.article-text_circle > p {
+    text-align: center;
+    z-index: 2;
+    width: 485px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.article-text_sixth {
+    display: flex;
+    flex-direction: row;
+}
+
+.article-text_sixth > div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 24px;
+}
+
+.article-text_exercise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    background-color: #FEFAEC;
+    border-radius: 16px;
+}
+
+.article-text_exercise1 > h3 {
+    margin-bottom: 8px;
+}
+
+.exersise2 {
+    background-color: #FFF3EB;
+}
+
+.article-text_seventh {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.article-text_seventh > div {
+    display: flex;
+    flex-direction: column;
+    width: 333px;
+}
+
+.article-text_seventh > div > img {
+    margin-bottom: 24px;
+}
+
+.article-text_lightning {
+    display: flex;
+    justify-content: center;
+}
+
+.exersise3 {
+    background-color: #03b2a61a;
+}
+
+.article-text_hrefs {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2963A3;
+}
+
+.article-text_hrefs > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.article-text_hrefs > div > img {
+    margin: 0 8px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 516px;
+}
+
+.qlick, .psychologist, .give-care, .offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 282px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.qlick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 512px;
+    margin-top: 72px ;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #E6F0FD;
+}
+
+.qlick > img {
+    width: 257px;
+    height: 206px;
+}
+
+.qlick > div > h5 {
+    margin-bottom: 8px;
+    padding: 0 6px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.qlick > div > p {
+    line-height: 20px;
+}
+
+.qlick > button {
+    width: 234px;
+    height: 48px;
+}
+
+.psychologist {
+    height: 481px;
+    padding: 24px 0 36px;
+    border: 1px solid #DEDEDE;
+    border-radius: 16px;
+}
+
+.psychologist_top {
+    position: relative;
+    width: 250px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.psychologist_top_hashtag {
+    position: absolute;
+    top: 0px;
+    left: 16px;
+}
+
+.psychologist_top_hashtag > div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    padding: 3px 6px;
+    background-color: rgba(243, 244, 248, 0.7);
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.psychologist_top_hashtag > div > .img {
+    margin-right: 3px;
+}
+
+.psychologist_top_hashtag > .camera {
+    width: 74px;
+}
+
+.psychologist_top > img {
+    margin: 8px 0 0 65px;
+    border-radius: 50%;
+}
+
+.psychologist_top_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 28px;
+}
+
+.psychologist_top_text > h5 {
+    font-weight: 600;
+}
+
+.psychologist_top_text_data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 152px;
+    margin-bottom: 16px;
+    color: #A2A7B1;
+}
+
+.psychologist_bottom > h5 {
+    margin-bottom: 8px;
+}
+
+.psychologist_bottom > ul {
+    margin-bottom: 16px;
+}
+
+.psychologist_bottom > ul > li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.psychologist_bottom > ul > li > img {
+    margin-right: 7px;
+}
+
+.psychologist_bottom > button {
+    width: 250px;
+    height: 48px;
+}
+
+.give-care {
+    position: relative;
+    height: 292px;
+    background-color: #2963A3;
+}
+
+.give-care > img {
+    position: absolute;
+    bottom: 0;
+    width: 282px;
+}
+
+.give-care > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    color: #FFFFFF;
+}
+
+.offer {
+    position: relative;
+    height: 304px;
+    border: 1px solid #DEDEDE;
+}
+
+.offer > img {
+    position: absolute;
+    bottom: 0;
+}
+
+.offer_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    height: 304px;
+    padding: 32px;
+}
+
+.offer_text > div {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    color: #2963A3;
+}
+
+.offer_text > div > h3 {
+    margin-right: 6px;
+}
+
+.offer_text > button {
+    width: 108px;
+    height: 48px;
+}
+
+.aside_circle {
+    position: absolute;
+    top: 2404px;
+    right: 0;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 1200px;
+    border-bottom: 1px solid #eeecec;
+}
+
+.help {
+    display: flex;
+    flex-direction: row;
+    padding: 72px 0 0 120px;
+}
+
+.help_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 349px;
+    height: 280px;
+    margin-right: 302px;
+}
+
+.help_text > p {
+    font-size: 16px;
+}
+
+.help_text > button {
+    width: 238px;
+    height: 60px;
+}
+
+.help_img {
+    width: 520px;
+    height: 330px;
+    margin-right: 76px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 302px;
+    margin: 96px 0 0;
+    padding: 40px 0 0;
+    background-color: #2963A3;
+}
+
+.main-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.main-information_navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 310px;
+    height: 184px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.main-information_navigation > div {
+    display: flex;
+    flex-direction: column;
+    width: 111px;
+}
+
+.main-information_navigation > div > a {
+    margin: 0 0 16px;
+}
+
+.main-information_email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 486px;
+    height: 170px;
+}
+
+.main-information_email_p1 {
+    width: 384px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-information_email_input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-information_email_input > input {
+    width: 382px;
+    height: 48px;
+    border: 0px solid #9D9D9D;
+    border-radius: 4px;
+}
+
+.main-information_email_input > input::placeholder {
+    padding: 0 0 0 16px;
+    color: #9D9D9D;
+}
+
+.main-information_email_input > input:focus {
+    padding: 0 0 0 16px;
+}
+
+.main-information_email_input > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 48px;
+    margin: 0 0 0 -64px;
+    background-color: #16C8BB;
+    border: 1px solid #16C8BB;
+    border-radius: 4px;
+}
+
+.main-information_email_p2 {
+    color: #FFFFFF;
+    opacity: 70%;
+    font-size: 12px;
+}
+
+.main-information_media {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 221px;
+    height: 122px;
+}
+
+.main-information_media_participant {
+    width: 221px;
+    height: 50px;
+}
+
+.main-information_media_circles {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 176px;
+    height: 32px;
+}
+
+.main-information_media_circles > img {
+    width: 32px;
+    height: 32px;
+}
+
+.line {
+    width: 1200px;
+    height: 209px;
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+}
+
+.bottom-information {
+    display: flex;
+    justify-content: flex-start;
+    width: 1200px;
+    margin: 16px 0 0;
+}
+
+.bottom-information_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 563px;
+    color: #FFFFFF;
+    opacity: 70%;
+}
+
+/* Ipad Pro 12,9 */
+@media (max-width: 1440px) {
+    /* header */
+    nav {
+        width: 627px;
+        margin: 0 20px 0 32px;
+    }
+
+    /* main */  
+    main {
+        width: 758px;
+    }
+    
+    main > section {
+        width: 714px;
+    }
+    
+    .navigation-text {
+        width: 714px;
+    }
+    
+    .naming {
+        width: 714px;
+    }
+    
+    .naming_author {
+        width: 286px;
+    }
+    
+    .naming > img {
+        width: 714px;
+    }
+    
+    .article-text_second > img {
+        width: 58.9px;
+    }
+    
+    .article-text_forth > img {
+        width: 714px;
+    }
+
+    .article-text_seventh > div {
+        width: 345px;
+    }
+
+    aside {
+        width: 266px;
+    }
+
+    .qlick, .psychologist, .give-care, .offer {
+        width: 222px;
+    }
+
+    .qlick > img {
+        width: 181px;
+        height: 145px;
+    }
+    
+    .qlick > button {
+        width: 182px;
+    }
+    
+    .psychologist {
+        height: 530px;
+    }
+    
+    .psychologist_top {
+        width: 174px;
+    }
+    
+    .psychologist_top_hashtag {
+        left: 0px;
+    }
+    
+    .psychologist_top > img {
+        margin: 8px 0 0 27px;
+    }
+    
+    .psychologist_bottom {
+        width: 174px;
+    }
+
+    .psychologist_bottom > button {
+        width: 174px;
+    }
+
+    .give-care > img {
+        width: 222px;
+    }
+
+    .give-care > div {
+        top: 40px;
+        left: 50px;
+    }
+
+    .offer {
+        position: relative;
+        height: 308px;
+    }
+
+    .offer > img {
+        width: 222px;
+    }
+    
+    .offer_text {
+        height: 308px;
+        padding: 23px;
+    }
+    
+    .hr, .help, .aside_circle, #content_list_none {
+        display: none;
+    }
+
+    /* footer */
+    footer {
+        margin: 71px 0 0;
+    }
+
+    .main-information {
+        width: 960px;
+    }
+
+    .main-information_navigation {
+        width: 247px;
+        height: 184px;
+    }
+
+    .main-information_email {
+        width: 450px;
+    }
+
+    .line {
+        width: 960px;
+    }
+
+    .bottom-information {
+        width: 960px;
+    }
+}
+
+/* Ipad mini */
+@media screen and (max-width: 1024px) {
+    /* header */
+    nav, .header_button {
+        display: none;
+    }
+
+    .youtalk {
+        margin: 0 0 0 20px;
+    }
+
+    .burger-menu {
+        display: flex;
+        margin: 0 0 0 637px;
+    }
+
+    /* main */
+    .main-and-aside {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        width: 728px;
+    }
+    
+    main > section {
+        width: 728px;
+    }
+    
+    .navigation-text {
+        width: 728px;
+    }
+    
+    .naming {
+        width: 728px;
+    }
+    
+    .naming_author {
+        width: 292px;
+    }
+    
+    .naming > img {
+        width: 728px;
+    }
+    
+    .article-text_second > img {
+        width: 60.14px;
+    }
+    
+    .article-text_forth > img {
+        width: 728px;
+    }
+
+    .article-text_seventh > div {
+        width: 356px;
+    }
+
+    aside {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 728px;
+    }
+
+    .qlick, .psychologist {
+        width: 356px;
+        height: 481px;
+        margin-bottom: 36px;
+    }
+
+    .qlick, .give-care {
+        margin-right: 16px;
+    }
+
+    .give-care, .offer {
+        width: 356px;
+        height: 242px;
+    }
+
+    .qlick > img {
+        width: 257px;
+        height: 206px;
+    }
+    
+    .qlick > button {
+        width: 310px;
+    }
+    
+    .psychologist_top {
+        width: 250px;
+    }
+    
+    .psychologist_top_hashtag {
+        left: -24px;
+    }
+    
+    .psychologist_top > img {
+        margin: 8px 0 0 65px;
+    }
+    
+    .psychologist_bottom {
+        width: 250px;
+    }
+
+    .psychologist_bottom > button {
+        width: 250px;
+    }
+    
+    .give-care > img {
+        width: 356px;
+    }
+
+    .give-care > div {
+        top: 40px;
+    }
+
+    .offer > img {
+        width: 356px;
+    }
+    
+    .offer_text {
+        height: 242px;
+        padding: 24px;
+    }
+    
+    .hr, .help, .aside_circle, #content_list_none, #give-care_none {
+        display: none;
+    }
+
+    /* footer */
+    footer {
+        height: 454px;
+    }
+
+    .main-information {
+        width: 728px;
+    }
+
+    .main-information_navigation {
+        width: 247px;
+        height: 184px;
+    }
+
+    .main-information_email {
+        width: 450px;
+    }
+
+    .main-information_media {
+        margin: 26px 0 0;
+    }
+
+    .line {
+        width: 728px;
+        height: 367px;
+    }
+
+    .bottom-information {
+        width: 728px;
+    }
+}
+
+/* Iphone 11 Pro Max */
+@media screen and (max-width: 768px) {
+    /* header */
+    nav, .header_button {
+        display: none;
+    }
+
+    .youtalk {
+        margin: 0 0 0 24px;
+    }
+
+    .burger-menu {
+        display: flex;
+        margin: 0 0 0 278px;
+    }
+
+    /* main */
+    .main-and-aside {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        width: 374px;
+    }
+    
+    main > section {
+        width: 374px;
+    }
+    
+    .navigation-text {
+        width: 374px;
+        margin-bottom: 32px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .naming {
+        width: 374px;
+    }
+    
+    .naming_author {
+        width: 292px;
+    }
+    
+    .naming > img {
+        width: 374px;
+        height: 207px;
+    }
+
+    .article-text_first {
+        height: 304px;
+    }
+    
+    .article-text_second > img {
+        width: 60.14px;
+    }
+    
+    .article-text_forth > img {
+        width: 374px;
+        height: 207px
+    }
+    
+    .article-text_circle > p {
+        width: 374px;
+    }
+
+    .article-text_sixth {
+        flex-direction: column;
+    }
+
+    .article-text_sixth > img {
+        margin-bottom: 16px;
+    }
+
+    .article-text_sixth > div {
+        margin: 0;
+    }
+
+    .article-text_seventh {
+        flex-direction: column;
+    }
+
+    .article-text_seventh > div {
+        width: 374px;
+    }
+
+    .article-text_seventh > div > img {
+        margin: 24px 0;
+    }
+
+    #exersise3 {
+        margin-bottom: 56px;
+    }
+
+    aside {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 374px;
+    }
+
+    .qlick, .psychologist, .give-care {
+        width: 356px;
+        height: 481px;
+        margin-bottom: 36px;
+    }
+
+    .give-care, .offer {
+        width: 356px;
+        height: 242px;
+    }
+
+    .qlick, .give-care {
+        margin-right: 16px;
+    }
+
+    .qlick > img {
+        width: 257px;
+        height: 206px;
+    }
+    
+    .qlick > button {
+        width: 310px;
+    }
+    
+    .psychologist_top {
+        width: 250px;
+    }
+    
+    .psychologist_top_hashtag {
+        left: -24px;
+    }
+    
+    .psychologist_top > img {
+        margin: 8px 0 0 65px;
+    }
+    
+    .psychologist_bottom {
+        width: 250px;
+    }
+
+    .psychologist_bottom > button {
+        width: 250px;
+    }
+    
+    .give-care > img {
+        width: 356px;
+    }
+
+    .give-care > div {
+        top: 40px;
+    }
+
+    .offer > img {
+        position: absolute;
+        bottom: 0;
+        width: 356px;
+    }
+    
+    .offer_text {
+        height: 242px;
+        padding: 24px;
+    }
+    
+    .hr, .help, .aside_circle, #content_list_none, #give-care_none, .article-text_hrefs {
+        display: none;
+    }
+
+    /* footer */
+    footer {
+        width: 100%;
+        height: 746px;
+    }
+
+    .main-information {
+        width: 374px;
+    }
+
+    .main-information_navigation {
+        width: 375px;
+        height: 184px;
+    }
+
+    .main-information_email {
+        width: 375px;
+    }
+
+    .main-information_media {
+        margin: 23px 0 0;
+    }
+
+    .line {
+        width: 375px;
+        height: 552px;
+    }
+
+    .bottom-information {
+        width: 375px;
+    }
+
+    .bottom-information_text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-information_text > p {
+        margin: 0 0 20px;
+    }
+}
+
+/* Iphone SE */
+@media screen and (max-width: 414px) {
+    /* header */
+    nav, .header_button {
+        display: none;
+    }
+
+    .youtalk {
+        margin: 0 0 0 16px;
+    }
+
+    .burger-menu {
+        display: flex;
+        margin: 0 0 0 208px;
+    }
+
+    /* main */
+    .main-and-aside {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        width: 288px;
+    }
+    
+    main > section {
+        width: 288px;
+    }
+    
+    .navigation-text {
+        width: 288px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .naming {
+        width: 288px;
+    }
+    
+    .naming_author {
+        width: 288px;
+    }
+    
+    .naming > img {
+        width: 288px;
+        height: 207px;
+    }
+
+    .article-text > div {
+        margin-bottom: 16px;
+    }
+
+    .article-text_first {
+        height: 330px;
+    }
+    
+    .article-text_second > img {
+        width: 60.14px;
+    }
+    
+    .article-text_forth > img {
+        width: 288px;
+        height: 207px;
+    }
+    
+    .article-text_circle > p {
+        width: 288px;
+    }
+
+    .article-text_sixth {
+        flex-direction: column;
+    }
+
+    .article-text_sixth > img {
+        margin-bottom: 16px;
+    }
+
+    .article-text_sixth > div {
+        margin: 0;
+    }
+
+    .article-text_seventh {
+        flex-direction: column;
+    }
+
+    .article-text_seventh > div {
+        width: 288px;
+    }
+
+    .article-text_seventh > div > img {
+        margin: 24px 0;
+    }
+
+    #exersise3 {
+        margin-bottom: 16px;
+    }
+
+    aside {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 288px;
+    }
+
+    .qlick, .psychologist, .give-care {
+        width: 288px;
+        height: 512px;
+        margin: 0 0 24px 0;
+    }
+
+    .psychologist {
+        height: 481px;
+    }
+
+    .give-care, .offer {
+        width: 288px;
+        height: 292px;
+    }
+
+    .qlick > img {
+        width: 257px;
+        height: 206px;
+    }
+    
+    .qlick > button {
+        width: 239px;
+    }
+    
+    .psychologist_top {
+        width: 250px;
+    }
+    
+    .psychologist_top_hashtag {
+        left: 0px;
+    }
+    
+    .psychologist_top > img {
+        margin: 8px 0 0 65px;
+    }
+    
+    .psychologist_bottom {
+        width: 250px;
+    }
+
+    .psychologist_bottom > ul {
+        margin-bottom: 20px;
+    }
+
+    .psychologist_bottom > button {
+        width: 250px;
+    }
+    
+    .give-care > img {
+        width: 288px;
+    }
+
+    .give-care > div {
+        top: 80px;
+    }
+
+    .offer > img {
+        width: 288px;
+    }
+    
+    .offer_text {
+        height: 242px;
+        padding: 24px;
+    }
+    
+    .hr, .help, .aside_circle, #content_list_none, #give-care_none, .article-text_hrefs {
+        display: none;
+    }
+
+    /* footer */
+    footer {
+        height: 746px;
+    }
+
+    .main-information {
+        width: 288px;
+    }
+
+    .main-information_navigation {
+        width: 288px;
+        height: 184px;
+    }
+
+    .main-information_email {
+        width: 288px;
+        height: 223px;
+    }
+
+    .main-information_email_p1 {
+        width: 288px;
+    }
+
+    .main-information_email_input > input {
+        width: 288px;
+    }
+
+    .main-information_email_input > button {
+        display: none;
+    }
+
+    .main-information_media {
+        margin: 23px 0 0;
+    }
+
+    .line {
+        width: 288px;
+        height: 575px;
+    }
+
+    .bottom-information {
+        width: 288px;
+    }
+
+    .bottom-information_text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-information_text > p {
+        margin: 0 0 20px;
+    }
+}
